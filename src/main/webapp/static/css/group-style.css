@@ -1,0 +1,81 @@
+.like-btn {
+	cursor: pointer;
+	color: #007bff;
+	font-size: 16px;
+	margin-right: 4px;
+}
+
+.like-btn:hover {
+	color: #0056b3;
+}
+
+.like-count {
+	font-size: 14px;
+	color: #555;
+}
+
+.like-btn .fa-thumbs-up {
+	margin-right: 2px;
+}
+
+.group-management-header {
+	margin-bottom: 1.5rem;
+}
+
+.group-management-header h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.group-management-header .btn-primary {
+	font-size: 1rem;
+}
+
+.available-groups-header {
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.available-groups-header h2 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.card {
+	border: 1px solid #ddd;
+	border-radius: 0.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+	padding: 1.5rem;
+}
+
+.card-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.btn-sm {
+	font-size: 0.875rem;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
+}
+
+.user-checkboxes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.form-check-inline {
+	margin-bottom: 5px;
+}

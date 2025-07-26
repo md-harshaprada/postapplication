@@ -1,0 +1,95 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+.navbar {
+	z-index: 1000;
+	width: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-grow: 1;
+}
+
+.sidebar {
+	width: 250px;
+	background-color: #f8f9fa;
+	padding: 15px;
+	position: fixed;
+	top: 56px;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+.fixed-bottom-form {
+	position: fixed;
+	bottom: 0;
+	left: 270px;
+	right: 0;
+	padding: 10px;
+	background-color: #f8f9fa;
+	border-top: 1px solid #ddd;
+	z-index: 1000;
+}
+
+.sidebar .nav-link {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #007bff;
+	cursor: pointer;
+}
+
+.sidebar .nav-link:hover {
+	text-decoration: underline;
+}
+
+.content {
+	margin-left: 250px;
+	padding: 20px;
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+.card {
+	margin-bottom: 15px;
+}
+
+.countdown {
+	font-size: 20px;
+	color: #333;
+}
+
+input:placeholder-shown {
+	font-style: italic;
+}
+
+.card-link {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.card-link .card {
+	border: 1px solid #ddd;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	transition: box-shadow 0.15s ease-in-out;
+}
+
+.card-link:hover .card {
+	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.user-checkboxes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.form-check-inline {
+	margin-bottom: 5px;
+}
